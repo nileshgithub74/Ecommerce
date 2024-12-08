@@ -7,7 +7,22 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "e2e:setup": "cd e2e && npm run setup",
+    "e2e:install": "cd e2e && npm install",
+    "e2e:test": "cd e2e && npm test",
+    "e2e:test:headed": "cd e2e && npm run test:headed",
+    "e2e:test:ui": "cd e2e && npm run test:ui",
+    "e2e:test:chrome": "cd e2e && npm run test:chrome",
+    "e2e:test:firefox": "cd e2e && npm run test:firefox",
+    "e2e:test:safari": "cd e2e && npm run test:safari",
+    "e2e:test:mobile": "cd e2e && npm run test:mobile",
+    "e2e:test:visual": "cd e2e && npm run test:visual",
+    "e2e:test:performance": "cd e2e && npm run test:performance",
+    "e2e:test:api": "cd e2e && npm run test:api",
+    "e2e:report": "cd e2e && npm run report",
+    "e2e:clean": "cd e2e && npm run clean",
+    "test:all": "npm run lint && npm run e2e:test"
   },
   "dependencies": {
     "react": "^19.2.0",

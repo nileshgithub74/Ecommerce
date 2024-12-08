@@ -10,6 +10,7 @@ import Order from './pages/Order';
 import PlaceOrder from './pages/PlaceOrder';
 import Products from './pages/Products';
 import NavBar from './components/NavBar';
+import Footer from './pages/Footer';
 
 
 const App = () => {
@@ -41,7 +42,7 @@ const App = () => {
 
 
 
-
+    <Footer/>
 
 
     </div>
